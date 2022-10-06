@@ -8,9 +8,13 @@
 import Foundation
 
 struct Crystal: Identifiable {
-    // each crystal should have these values
     var id = UUID()
-    var image: String
-    var name : String
+    //var image: String
+    var name: String
+    var color: String
+    var crystalSystem: String
+    var origin: String
+    var chakra: String
+    var zodiac: String
     var description: String
 }
