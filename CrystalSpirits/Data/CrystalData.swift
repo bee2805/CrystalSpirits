@@ -111,7 +111,7 @@ let CrystalData: [Crystal] = [
             origin: "Canada, USA, Mexico, Norway, Russia, Brazil",
             chakra: "Third Eye, Root",
             zodiac: "Gemini",
-            description: <#T##String#>),
+            description: "This is a Apatite"),
     
     Crystal(name: "Aquamarine",
             color: "Green-blue/ Turquoise",
@@ -119,7 +119,7 @@ let CrystalData: [Crystal] = [
             origin: "USA, Mexico, Russia, Brazil, India, Ireland, Zimbabwe, Afganistan, Pakistan",
             chakra: "Aligns all, clears the throat chakra, opens the Third Eye",
             zodiac: "Aries, Gemini, Pisces",
-            description: <#T##String#>),
+            description: "This is Aquamarine"),
     
     
     

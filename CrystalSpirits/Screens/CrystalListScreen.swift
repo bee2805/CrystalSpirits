@@ -15,11 +15,27 @@ struct CrystalListScreen: View {
     var crystals = CrystalData
     
     var body: some View {
-        ZStack{
+        VStack{
             HStack{
                 Text("Crystals")
+                    .padding(.top)
+                    .font(.system(size: 32,
+                                  weight: .bold,
+                                  design: .default))
+                
+                Spacer()
                 
                 Image("menu_button")
+            }
+            .padding(20)
+            
+            //TODO: Filter Buttons
+            
+            
+            //TODO: Add Crystal Cards
+            List(crystals, id: \.id){
+                item in
+                CrystalCardView(name: item.name, zodiac: item.zodiac, description: item.description)
             }
         }
     }

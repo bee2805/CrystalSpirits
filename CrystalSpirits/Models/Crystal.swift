@@ -9,6 +9,7 @@ import Foundation
 
 struct Crystal: Identifiable {
     var id = UUID()
+    //TODO: Add images
     //var image: String
     var name: String
     var color: String
