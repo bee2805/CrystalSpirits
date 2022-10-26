@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682E605D290942E4003E4432 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E605C290942E4003E4432 /* SearchBar.swift */; };
+		682E605F29094370003E4432 /* FilterItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E605E29094370003E4432 /* FilterItems.swift */; };
+		682E6061290945F7003E4432 /* FilterButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E6060290945F7003E4432 /* FilterButtons.swift */; };
 		9D0A56DC28E5A8CC00B56C4E /* Crystal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56DB28E5A8CC00B56C4E /* Crystal.swift */; };
 		9D0A56E028E5AA3800B56C4E /* CrystalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56DF28E5AA3800B56C4E /* CrystalData.swift */; };
 		9D0A56E228E5AB8600B56C4E /* CrystalListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56E128E5AB8600B56C4E /* CrystalListScreen.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		682E605C290942E4003E4432 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		682E605E29094370003E4432 /* FilterItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItems.swift; sourceTree = "<group>"; };
+		682E6060290945F7003E4432 /* FilterButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtons.swift; sourceTree = "<group>"; };
 		9D0A56DB28E5A8CC00B56C4E /* Crystal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal.swift; sourceTree = "<group>"; };
 		9D0A56DF28E5AA3800B56C4E /* CrystalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalData.swift; sourceTree = "<group>"; };
 		9D0A56E128E5AB8600B56C4E /* CrystalListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalListScreen.swift; sourceTree = "<group>"; };
@@ -105,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				9D88AD4728F596E000CAF838 /* CrystalCardView.swift */,
+				682E605C290942E4003E4432 /* SearchBar.swift */,
+				682E6060290945F7003E4432 /* FilterButtons.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				9D0A56DB28E5A8CC00B56C4E /* Crystal.swift */,
+				682E605E29094370003E4432 /* FilterItems.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,8 +201,11 @@
 				9D0A56E028E5AA3800B56C4E /* CrystalData.swift in Sources */,
 				9DBB529928E6F7000044E213 /* SplashScreen.swift in Sources */,
 				9DC1BF2D28F6056C00C81439 /* DetailedCrystalScreen.swift in Sources */,
+				682E605D290942E4003E4432 /* SearchBar.swift in Sources */,
 				9D0A56E428E5AEFF00B56C4E /* OnboardingScreen.swift in Sources */,
 				9DC8DE5C28E5A6E300A44840 /* CrystalSpiritsApp.swift in Sources */,
+				682E6061290945F7003E4432 /* FilterButtons.swift in Sources */,
+				682E605F29094370003E4432 /* FilterItems.swift in Sources */,
 				9D0A56DC28E5A8CC00B56C4E /* Crystal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
