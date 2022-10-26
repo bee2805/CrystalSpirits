@@ -43,7 +43,7 @@ struct CrystalCardView: View {
                                   weight: .medium,
                                   design: .default))
             }
-        }.shadow(radius: 2)
+        }
     }
 }
 

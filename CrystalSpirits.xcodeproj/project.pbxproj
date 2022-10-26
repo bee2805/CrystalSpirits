@@ -14,6 +14,7 @@
 		68DA756C2909892300453868 /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DA756B2909892300453868 /* OnboardingData.swift */; };
 		68DA756E29098A9E00453868 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DA756D29098A9E00453868 /* OnboardingScreen.swift */; };
 		68DA75712909A49600453868 /* OnboardSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DA75702909A49600453868 /* OnboardSlide.swift */; };
+		68DA75732909C3AB00453868 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DA75722909C3AB00453868 /* SettingsScreen.swift */; };
 		9D0A56DC28E5A8CC00B56C4E /* Crystal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56DB28E5A8CC00B56C4E /* Crystal.swift */; };
 		9D0A56E028E5AA3800B56C4E /* CrystalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56DF28E5AA3800B56C4E /* CrystalData.swift */; };
 		9D0A56E228E5AB8600B56C4E /* CrystalListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A56E128E5AB8600B56C4E /* CrystalListScreen.swift */; };
@@ -33,6 +34,7 @@
 		68DA756B2909892300453868 /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
 		68DA756D29098A9E00453868 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		68DA75702909A49600453868 /* OnboardSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardSlide.swift; sourceTree = "<group>"; };
+		68DA75722909C3AB00453868 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		9D0A56DB28E5A8CC00B56C4E /* Crystal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal.swift; sourceTree = "<group>"; };
 		9D0A56DF28E5AA3800B56C4E /* CrystalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalData.swift; sourceTree = "<group>"; };
 		9D0A56E128E5AB8600B56C4E /* CrystalListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalListScreen.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				9DBB529828E6F7000044E213 /* SplashScreen.swift */,
 				9DC1BF2C28F6056C00C81439 /* DetailedCrystalScreen.swift */,
 				68DA756D29098A9E00453868 /* OnboardingScreen.swift */,
+				68DA75722909C3AB00453868 /* SettingsScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				68DA756E29098A9E00453868 /* OnboardingScreen.swift in Sources */,
 				682E6061290945F7003E4432 /* FilterButtons.swift in Sources */,
 				682E605F29094370003E4432 /* FilterItems.swift in Sources */,
+				68DA75732909C3AB00453868 /* SettingsScreen.swift in Sources */,
 				9D0A56DC28E5A8CC00B56C4E /* Crystal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

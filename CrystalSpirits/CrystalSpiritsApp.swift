@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-@main
-struct CrystalSpiritsApp: App {
+@main struct CrystalSpiritsApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
             //CrystalListScreen()
             SplashScreen()
+//            OnboardingScreen()
         }
     }
 }
