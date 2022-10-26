@@ -23,6 +23,7 @@ struct CrystalListScreen: View {
                 Text("Crystals")
                     .padding(.top)
                     .font(.system(size: 32, weight: .bold, design: .default))
+                    .foregroundColor(Color("DarkText"))
                 
                 Spacer()
                 
@@ -36,6 +37,7 @@ struct CrystalListScreen: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 30, height: 30)
+                        .foregroundColor(Color("DarkText"))
                 } // End of Settings button
             }
             .padding(20)
