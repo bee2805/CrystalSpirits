@@ -27,8 +27,7 @@ struct SearchBar: View {
                             startPoint: .topLeading, endPoint: .bottomTrailing)
                 )
         )
-        .padding(.leading, 20)
-        .padding(.trailing, 20)
+        .padding(.horizontal, 20)
         .padding(.top, 20)
     }
 }

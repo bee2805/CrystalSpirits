@@ -10,15 +10,9 @@ import SwiftUI
 struct SettingsScreen: View {
     var body: some View {
         VStack(alignment: .leading){
-            HStack{
-                Image(systemName: "chevron.backward")
-                    .font(.system(size: 20, weight: .bold, design: .default))
-                    .padding(.top, 3)
-                
-                Text("Settings")
-                    .font(.system(size: 32, weight: .bold, design: .default))
-                    .foregroundColor(Color("DarkText"))
-            }
+            Text("Settings")
+                .font(.system(size: 32, weight: .bold, design: .default))
+                .foregroundColor(Color("DarkText"))
             
             ScrollView(.vertical){
                 GroupBox{
@@ -66,26 +60,12 @@ struct SettingsScreen: View {
             
             Spacer()
             
-            Button {} label: {
-                HStack(alignment: .center){
-                    Image("GitHub")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                    
-                    Text("Get Started")
-                        .padding()
-                        .foregroundColor(.white)
-                        .font(.system(size: 18, weight: .bold, design: .default))
-                }
-            }
-            .frame(width: 330, height: 50)
-            .padding(10)
-            .background(
-                LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
-                                      startPoint: .topLeading, endPoint: .bottomTrailing)
-                .frame(height: 80)
-            )
-            .clipShape(Capsule())
+//            Link(destination: URL(string: "https://github.com/bee2805/CrystalSpirits")!), label: {
+//                HStack{
+//                    Text("GitHub")
+//                        .bold()
+//                }
+//            })
         }
         .padding(.leading, 20)
         .padding(.trailing, 20)

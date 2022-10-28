@@ -40,7 +40,7 @@ struct CrystalCardView: View {
                                   design: .default))
             }
         }
-        .padding(.bottom, 10)
+        .padding(.bottom, 15)
     }
 }
 

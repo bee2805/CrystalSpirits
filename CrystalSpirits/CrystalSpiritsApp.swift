@@ -10,7 +10,7 @@ import SwiftUI
 @main struct CrystalSpiritsApp: App {
     
     // get app storage onboarding val
-    @AppStorage("onboardingComplete") var onboardingComplete = false
+//    @AppStorage("onboardingComplete") var onboardingComplete = false
     
     var body: some Scene {
         WindowGroup {
@@ -18,11 +18,11 @@ import SwiftUI
             //CrystalListScreen()
             SplashScreen()
             
-            if(onboardingComplete){
-                CrystalListScreen()
-            } else {
-                OnboardingScreen()
-            }
+//            if(onboardingComplete){
+//                CrystalListScreen()
+//            } else {
+//                OnboardingScreen()
+//            }
         }
     }
 }
