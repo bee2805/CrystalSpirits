@@ -9,11 +9,7 @@ import SwiftUI
 
 struct CrystalCardView: View {
     // TODO: Add Images
-    // TODO: Change zodiac to a short description
-    var name: String
-    var zodiac: String
-    var description: String
-    
+    var crystal: Crystal
     // MARK: - Body
     var body: some View {
         GroupBox{
@@ -23,19 +19,19 @@ struct CrystalCardView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
                 
-                Text(name)
+                Text(crystal.name)
                     .foregroundColor(Color("DarkText"))
                     .font(.system(size: 25,
                                   weight: .semibold,
                                   design: .default))
                 
-                Text(zodiac)
+                Text(crystal.zodiac)
                     .foregroundColor(Color("DarkText"))
                     .font(.system(size: 18,
                                   weight: .medium,
                                   design: .default))
                 
-                Text(description)
+                Text(crystal.description)
                     .lineLimit(2)
                     .padding(3)
                     .foregroundColor(.secondary)
@@ -49,6 +45,6 @@ struct CrystalCardView: View {
 
 struct CrystalCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CrystalCardView(name: "Rose Quartz", zodiac: "Leo, Gemini", description: "there will be a description of the crystal here.")
+        CrystalCardView(crystal: CrystalData[0])
     }
 }

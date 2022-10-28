@@ -8,12 +8,21 @@
 import SwiftUI
 
 @main struct CrystalSpiritsApp: App {
+    
+    // get app storage onboarding val
+    @AppStorage("onboardingComplete") var onboardingComplete = false
+    
     var body: some Scene {
         WindowGroup {
             //ContentView()
             //CrystalListScreen()
             SplashScreen()
-//            OnboardingScreen()
+            
+            if(onboardingComplete){
+                CrystalListScreen()
+            } else {
+                OnboardingScreen()
+            }
         }
     }
 }

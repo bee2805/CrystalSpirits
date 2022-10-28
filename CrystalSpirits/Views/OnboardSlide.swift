@@ -9,17 +9,16 @@ import SwiftUI
 
 struct OnboardSlide: View {
     
-    var image : String
-    var description : String
+    var onboard: Onboarding
     
     var body: some View {
-        Image(image)
+        Image(onboard.image)
             .resizable()
             .scaledToFill()
             .edgesIgnoringSafeArea(.top)
         
         VStack{
-            Text(description)
+            Text(onboard.description)
                 .padding(.top, 400)
                 .padding(.leading, 70)
                 .padding(.trailing, 70)
@@ -32,6 +31,6 @@ struct OnboardSlide: View {
 
 struct OnboardSlide_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardSlide(image: "OnboardingOne", description: "Welcome to Crystal Spirits! The Encyclopedia of Crystals by Judy Hall right at your fingertips")
+        OnboardSlide(onboard: OnboardingData[0])
     }
 }
