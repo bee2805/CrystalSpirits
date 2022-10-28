@@ -12,7 +12,7 @@ import SwiftUI
 struct CrystalListScreen: View {
     
     // getting crystal data
-    var crystals = CrystalData
+    var crystal: [Crystal] = CrystalData
     @State var searchText = ""
     
     var body: some View {
@@ -40,7 +40,8 @@ struct CrystalListScreen: View {
                         .foregroundColor(Color("DarkText"))
                 } // End of Settings button
             }
-            .padding(20)
+            .padding(.leading, 20)
+            .padding(.trailing, 20)
             Divider()
             // End of Heading and Settings Button
         
@@ -59,7 +60,15 @@ struct CrystalListScreen: View {
             .padding(.top, 5)
             // End of Filter Buttons
             
-            // TODO: Crystal List
+            ScrollView(.vertical, showsIndicators: false){
+                // TODO: Crystal List
+                ForEach(crystal){ crystal in
+                    CrystalCardView(crystal: crystal)
+                } // end of ForEach
+            }
+            .padding(.leading, 20)
+            .padding(.trailing, 20)
+            .padding(.top)
             
             
         } //Outer VStack

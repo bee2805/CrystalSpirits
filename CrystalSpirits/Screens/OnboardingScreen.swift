@@ -75,18 +75,16 @@ struct OnboardingScreen: View {
                 onboardingComplete = true
             } label: {
                 Text("Get Started")
-                    .padding()
                     .foregroundColor(.white)
                     .frame(width: 300 , height: 50, alignment: .center)
                     .font(.system(size: 18, weight: .bold, design: .default))
+                    .padding(7)
             }
             .background(
                 LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
                                       startPoint: .topLeading, endPoint: .bottomTrailing)
             )
-            .padding()
-            .buttonBorderShape(.capsule)
-            
+            .clipShape(Capsule())
         }
         
     }
