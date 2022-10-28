@@ -14,7 +14,7 @@ struct CrystalCardView: View {
     var body: some View {
         GroupBox{
             VStack{
-                Image("pink_crystal")
+                Image(crystal.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)

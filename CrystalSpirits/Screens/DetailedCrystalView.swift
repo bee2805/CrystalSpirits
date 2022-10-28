@@ -23,7 +23,7 @@ struct DetailedCrystalView: View {
                 ScrollView(.vertical){
                     
                     GroupBox{
-                        Image("pink_crystal")
+                        Image(crystal.image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 300, height: 300)
