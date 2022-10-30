@@ -28,6 +28,11 @@ struct SettingsScreen: View {
                     DisclosureGroup("About Crystal Spirits", isExpanded: $showAbout){
                         Text("Crystal spirits is your very first pocket crystal enclycopedia. This App was based off of the book 'The crystal Encyclopedia' by Judy Hall. Learn the associations between crystals, the chakras and the zodiac and Get Helpful Advice on using crystals to heal!")
                             .multilineTextAlignment(.center)
+                            .padding(.top, 10)
+                            .padding(.bottom, 10)
+                        
+                        Text("Version 1.0")
+                            .font(.system(size: 20, weight: .semibold, design: .default))
                     }
                 }
                 .padding(.bottom, 10)

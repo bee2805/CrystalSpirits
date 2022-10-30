@@ -20,7 +20,7 @@ struct OnboardingScreen: View {
         VStack{
             
             // TabView
-            TabView(selection: $currentLocation){
+            TabView(){
                 //ForEach loop
                 ForEach(onboarding){ onboard in
                     ZStack{
@@ -28,46 +28,10 @@ struct OnboardingScreen: View {
                     }
                 } // end of ForEach
             } // end of tabview
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .ignoresSafeArea()
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
             Spacer()
-            
-            HStack{
-                Rectangle()
-                    .frame(width: 20, height: 10)
-                    .cornerRadius(10)
-                    .foregroundColor(Color("PrimaryBlue"))
-                Circle()
-                    .frame(width: 10, height: 10)
-                    .foregroundColor(Color("LightGrey"))
-            }
-            .padding()
-            
-            HStack{
-                Button{} label: {
-                    Text("Skip")
-                        .font(.system(size: 16, weight: .light, design: .default))
-                        .foregroundColor(Color("DarkGray"))
-                }
-                
-                Spacer()
-                        
-                Button(action: {
-                    currentLocation += 1
-                }){
-                    Text("Next")
-                        .font(.system(size: 18, weight: .bold, design: .default))
-                        .foregroundColor(Color("DarkGray"))
-                    
-                    Image(systemName: "arrow.right")
-                        .foregroundColor(Color("DarkGray"))
-                        .font(.system(size: 18, weight: .bold, design: .default))
-                }
-    
-            }
-            .padding(.leading, 60)
-            .padding(.trailing, 60)
-            .padding(.top)
             
             // if(self.currentStep == 2)
             
