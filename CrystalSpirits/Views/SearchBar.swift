@@ -14,7 +14,7 @@ struct SearchBar: View {
                 .font(.title2)
                 .foregroundColor(Color("PrimaryPurple"))
             
-            TextField("Search", text: .constant(""))
+            TextField("Search...", text: .constant(""))
                 .disabled(true)
         }
         .padding(.vertical, 12)
@@ -23,12 +23,10 @@ struct SearchBar: View {
         .background(
             RoundedRectangle(cornerRadius: 10)
                 .strokeBorder(
-                    LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryPurple"), Color("PrimaryBlue")]),
+                    LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
                             startPoint: .topLeading, endPoint: .bottomTrailing)
                 )
         )
-        .padding(.horizontal, 20)
-        .padding(.top, 20)
     }
 }
 

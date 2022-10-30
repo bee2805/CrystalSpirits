@@ -97,6 +97,14 @@ let CrystalData: [Crystal] = [
             origin: "USA, Egypt, Mexico, China, Iran, Peru, Poland",
             chakra: "Throat and Third-eye",
             zodiac: "Scorpio, Sagittarius, Pisces",
-            description: "This stone bridges earth and heaven and is sacred to native Americans. To be given a Turquoise brings good luck and peace. It is protective and has been used for amulets since time began, defending against injury, outside influences, ot atmospheric pollutants. Promoting spiritual attunement and enhancing communication with the physical and spiritual worlds, Turquoise is an efficient healer, providing solace for the spirit and well-being for the body")
+            description: "This stone bridges earth and heaven and is sacred to native Americans. To be given a Turquoise brings good luck and peace. It is protective and has been used for amulets since time began, defending against injury, outside influences, ot atmospheric pollutants. Promoting spiritual attunement and enhancing communication with the physical and spiritual worlds, Turquoise is an efficient healer, providing solace for the spirit and well-being for the body"),
     
+    Crystal(image: "Amethyst",
+            name: "Amethyst",
+            color: "Purple",
+            crystalSystem: "Triagonal",
+            origin: "Worldwide",
+            chakra: "Third-eye, Crown",
+            zodiac: "Aquarius, Pisces",
+            description: "Amethyst derivs from the Greek for 'to be intoxicated' and was worn to prevent Drunkeness. Promoting love of the divine, Amethyst encourages selflessness and spiritual wisdom. Opening multidimentional awareness")
 ]

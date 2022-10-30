@@ -15,7 +15,7 @@ struct SplashScreen: View {
     var body: some View {
         
         if isActive{
-            CrystalListScreen()
+            OnboardingScreen()
         } else {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryPurple"), Color("PrimaryBlue")]),
