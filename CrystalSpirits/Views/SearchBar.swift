@@ -3,35 +3,64 @@
 //  CrystalSpirits
 //
 //  Created by Bronwyn Potgieter on 2022/10/26.
-//
+// https://www.youtube.com/watch?v=d8GVu4Y_biE
 
 import SwiftUI
 
 struct SearchBar: View {
+    
+    @Binding var text : String
+    @State private var isEditing = false
+    
     var body: some View {
         HStack(spacing: 15){
-            Image(systemName: "magnifyingglass")
-                .font(.title2)
-                .foregroundColor(Color("PrimaryPurple"))
             
-            TextField("Search...", text: .constant(""))
-                .disabled(true)
-        }
-        .padding(.vertical, 12)
-        .padding(.leading, 20)
-        .padding(.trailing, 20)
-        .background(
-            RoundedRectangle(cornerRadius: 10)
-                .strokeBorder(
-                    LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
-                            startPoint: .topLeading, endPoint: .bottomTrailing)
+            TextField("Search...", text: $text)
+                .padding(15)
+                .padding(.horizontal,25)
+                .background(
+                    RoundedRectangle(cornerRadius: 8)
+                        .strokeBorder(
+                            LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
+                                    startPoint: .topLeading, endPoint: .bottomTrailing)
+                        )
                 )
-        )
-    }
-}
-
-struct SearchBar_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchBar()
+                .foregroundColor(Color("DarkText"))
+                .overlay(
+                    HStack{
+                        Image(systemName: "magnifyingglass")
+                            .foregroundColor(Color("PrimaryPurple"))
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 8)
+                        
+                        Spacer()
+                        
+                        if isEditing {
+                            Button(action: {
+                                self.text = ""
+                            }, label: {
+                                Image(systemName: "multiply.circle.fill")
+                                    .foregroundColor(Color("PrimaryPurple"))
+                                    .padding(.trailing, 8)
+                            })
+                        }
+                    }
+                ).onTapGesture {
+                    self.isEditing = true
+                }
+            
+            if isEditing {
+                Button(action: {
+                    self.isEditing = false
+                    
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                }, label: {
+                    Text("Cancel")
+                })
+                .padding(.trailing, 10)
+                .transition(.move(edge: .trailing))
+                .animation(.linear, value: 500)
+            }
+        }
     }
 }
