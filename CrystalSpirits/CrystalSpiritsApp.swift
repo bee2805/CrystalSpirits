@@ -17,6 +17,7 @@ import SwiftUI
     var body: some Scene {
         WindowGroup {
             
+//            OnboardingScreen()
 //            SplashScreen()
             if(onboardingComplete){
                 CrystalListScreen()

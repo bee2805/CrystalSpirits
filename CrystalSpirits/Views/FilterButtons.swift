@@ -13,11 +13,13 @@ struct FilterButtons: View {
     
     var body: some View {
         
-        Button{} label: {
+        ZStack{
+            Capsule()
+                .frame(width: 100, height: 40)
+                
             Text(filterOption)
+                .foregroundColor(.white)
         }
-        .buttonStyle(.bordered)
-        .buttonBorderShape(.capsule)
         
     }
 }
