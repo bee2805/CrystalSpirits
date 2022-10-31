@@ -187,16 +187,16 @@ After setting this up, I went ahead and did some research on different trivia ga
 
 ### Mockups
 
-![image8](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/mockup_one.jpg)
+![image8](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
 <br>
 
-![image9](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/mockup_four.jpg)
+![image9](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
 <br>
 
-![image10](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/mockup_three.jpg)
+![image10](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupFour.jpg)
 <br>
 
-![image11](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/mockup_two.jpg)
+![image11](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupFive.jpg)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
