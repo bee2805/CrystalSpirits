@@ -136,12 +136,15 @@ The settings screen displays information about the application as well as the ve
 
 ### Ideation
 
-![image6](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/concept_ideation.jpg)
+![image6](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Moodboard.jpg)
+<br>
+
+![image7](https://github.com/bee2805/CrystalSpirits/blob/main/assets/ConceptIdeation.jpg)
 <br>
 
 ### Wireframes
 
-![image7](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
+![image8](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -176,10 +179,10 @@ The settings screen displays information about the application as well as the ve
 
 ### Mockups
 
-![image8](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
+![image9](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
 <br>
 
-![image9](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
+![image10](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
