@@ -107,22 +107,28 @@ Run the following in the command-line to clone the project:
 
 I implemented a splash screen that displays as soon as the application is opened by the user. It is active for 3 seconds and thereafter the user will be directed to the onboarding screens.
 
-![image2](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/splash_screen.jpg)
-### Categories
+![image2](https://github.com/bee2805/CrystalSpirits/blob/main/assets/SplashScreen.jpg)
+### Onboarding Screens
 
-The user can choose between different categories that they would like to play.
+The onboarding screens have brief information about the application that give the user an understanding of what it may be about. The onboarding screens only display when the user opens the app for the first time. I was able to do this utilizing App storage.
 
-![image3](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/categories.jpg)
-### Questions
+![image3](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Onboarding.jpg)
+### Crystals List/Home Screen
 
-There are three different views for each question type. Two of the question types have three options in which you can pick and the lyric-based question view allows users to answer by typing in the answer. As the user plays each category, points will accumulate for each correct answer.
+The Home page has a list of different crystals as well as a search bar that allows to user to find the crystal they are looking for.
 
 ![image4](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/question_screen.jpg)
-### Results/Scores
+### Detailed Crystal View
 
 The result screen displays after a user have completed a category. The score from the specific Category played is displayed here.
 
 ![image5](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/results.jpg)
+
+### Settings Screen
+
+The settings screen displays information about the application as well as the version. The user can also toggle between light and dark mode, and visit the github repositry by clicking the button at the bottom of the screen.
+
+![image6](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/results.jpg)
 
 
 <!-- CONCEPT PROCESS -->
@@ -130,20 +136,14 @@ The result screen displays after a user have completed a category. The score fro
 <!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
 ## Concept Process
 
-* I thought about the goals that I wanted to achieve with this app. The main goal was definitely to create an app that brings people together, so I jotted down a few ideas that could achieve this goal. The first ideas I got were either not exciting enough, or they were interest-specific. 
-* After bashing ideas around my brain, I finally conclude that a generation quiz would not only be super fun and inclusive, but would also bring on that nostalgia feeling, and I think we can all admit that it’s a great feeling to have!
-* I then decided on the categories that I wanted to include and after some amazing advice, I added an extra category that tells you which generation your soul belongs to!
-
-After setting this up, I went ahead and did some research on different trivia games or apps to get a bit of inspiration for the brand and layout of the app. It was then that I ran into this amazing card game called OK boomer on Behance. After completely falling in love with this whole idea as well as the branding, I mean, how could you not?!!! I got inspired and decided to base my app on this card game.
-
 ### Ideation
 
-![image6](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/concept_ideation.jpg)
+![image7](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/concept_ideation.jpg)
 <br>
 
 ### Wireframes
 
-![image7](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
+![image8](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -151,11 +151,6 @@ After setting this up, I went ahead and did some research on different trivia ga
 ### Implementation Process
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
-
-* Validation of inputs
-* XML for the layout and styling
-* Kotlin for the functionality
-* Different questions are dynamically displayed
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
@@ -187,16 +182,10 @@ After setting this up, I went ahead and did some research on different trivia ga
 
 ### Mockups
 
-![image8](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
+![image10](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
 <br>
 
-![image9](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
-<br>
-
-![image10](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupFour.jpg)
-<br>
-
-![image11](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupFive.jpg)
+![image11](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
