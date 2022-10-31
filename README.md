@@ -144,7 +144,7 @@ The settings screen displays information about the application as well as the ve
 
 ### Wireframes
 
-![image8](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
+![image8](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Wireframes.jpg)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
