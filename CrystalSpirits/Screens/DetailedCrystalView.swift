@@ -22,22 +22,34 @@ struct DetailedCrystalView: View {
                 
                 ScrollView(.vertical){
                     
-                    GroupBox{
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 30)
+                            .fill(Color(crystal.color))
+                            
+                        
                         Image(crystal.image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 300, height: 300)
                     }
-                    .padding(.bottom)
+                    .padding(.horizontal, 20)
                     
-                    VStack(alignment: .leading){
-                        CrystalInfo(title: "Crystal System: ", info: crystal.crystalSystem)
-                        CrystalInfo(title: "Chakra: ", info: crystal.chakra)
-                        CrystalInfo(title: "Origin: ", info: crystal.origin)
-                        CrystalInfo(title: "Zodiac: ", info: crystal.zodiac)
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 30)
+                            .frame(width: 350, height: 300)
+                            .padding(20)
+                            .foregroundColor(Color("LightGrey"))
+                            .shadow(radius: 3)
+                        
+                        VStack(alignment: .leading){
+                            CrystalInfo(title: "Crystal System: ", info: crystal.crystalSystem)
+                            CrystalInfo(title: "Chakra: ", info: crystal.chakra)
+                            CrystalInfo(title: "Origin: ", info: crystal.origin)
+                            CrystalInfo(title: "Zodiac: ", info: crystal.zodiac)
+                        }
+                        .padding(.horizontal, 20)
                     }
-                    .padding(.horizontal,20)
-                    .padding(.bottom, 20)
+                    
                     Divider()
                     
                     Text(crystal.description)

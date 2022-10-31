@@ -14,6 +14,10 @@ struct CrystalListScreen: View {
     // getting crystal data
     var crystal: [Crystal] = CrystalData
     
+    private let adaptiveColomns = [
+        GridItem(.adaptive(minimum: 163))
+    ]
+    
     @State var text = ""
     
     var body: some View {
@@ -40,6 +44,7 @@ struct CrystalListScreen: View {
                 
                 ScrollView(.vertical, showsIndicators: false){
                     SearchBar(text: $text)
+                        .padding(.bottom)
                     
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack(spacing: 10){
@@ -49,17 +54,18 @@ struct CrystalListScreen: View {
                             }
                         }
                     }
-                    .padding(.vertical, 5)
+                    .padding(.bottom)
                     // End of Filter Buttons
-                    // TODO: Crystal List
-                    ForEach(crystal.filter({"\($0)".contains(text) || text.isEmpty})){ crystal in
-                        NavigationLink(destination: DetailedCrystalView(crystal: crystal), label: {
-                            CrystalCardView(crystal: crystal)
-                        })
-                    } // end of ForEach
+
+                    LazyVGrid(columns: adaptiveColomns, spacing: 20){
+                        ForEach(crystal.filter({"\($0)".contains(text) || text.isEmpty})){ crystal in
+                            NavigationLink(destination: DetailedCrystalView(crystal: crystal), label: {
+                                CrystalCardView(crystal: crystal)
+                            })
+                        } // end of ForEach
+                    }
                 }
                 .padding(.horizontal, 20)
-                .padding(.top)
 
             } //Outer VStack
         }

@@ -12,35 +12,38 @@ struct CrystalCardView: View {
     var crystal: Crystal
     // MARK: - Body
     var body: some View {
-        GroupBox{
+        ZStack{
+            RoundedRectangle(cornerRadius: 30)
+                .frame(width: 163, height: 220)
+                .foregroundColor(Color(crystal.color))
+            
             VStack{
                 Image(crystal.image)
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(Color("DarkText"))
+                    .padding(.top, -50)
                 
                 Text(crystal.name)
+                    .lineLimit(1)
+                    .font(.system(size: 20, weight: .semibold))
                     .foregroundColor(Color("DarkText"))
-                    .font(.system(size: 25,
-                                  weight: .semibold,
-                                  design: .default))
                 
                 Text(crystal.zodiac)
+                    .lineLimit(1)
+                    .font(.system(size: 18, weight: .medium))
                     .foregroundColor(Color("DarkText"))
-                    .font(.system(size: 18,
-                                  weight: .medium,
-                                  design: .default))
+                    .padding(.bottom, 2)
                 
                 Text(crystal.description)
-                    .lineLimit(2)
-                    .padding(3)
-                    .foregroundColor(.secondary)
-                    .font(.system(size: 18,
-                                  weight: .medium,
-                                  design: .default))
+                    .lineLimit(3)
+                    .font(.system(size: 15, weight: .thin))
+                    .foregroundColor(Color("DarkText"))
+                
             }
+            .padding(20)
         }
-        .padding(.bottom, 15)
+        .padding(.bottom, 10)
     }
 }
 

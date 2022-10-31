@@ -13,14 +13,12 @@ import SwiftUI
     @AppStorage("onboardingComplete") var onboardingComplete = false
     @AppStorage("isLightMode") var isLightMode = false
     
+    
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            //CrystalListScreen()
-//            SplashScreen()
             
+//            SplashScreen()
             if(onboardingComplete){
-//                SettingsScreen()
                 CrystalListScreen()
                     .preferredColorScheme(isLightMode ? .light : .dark)
             } else {

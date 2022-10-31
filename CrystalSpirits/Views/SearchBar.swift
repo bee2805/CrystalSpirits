@@ -19,7 +19,7 @@ struct SearchBar: View {
                 .padding(15)
                 .padding(.horizontal,25)
                 .background(
-                    RoundedRectangle(cornerRadius: 8)
+                    RoundedRectangle(cornerRadius: 50)
                         .strokeBorder(
                             LinearGradient(gradient: Gradient(colors: [Color("PrimaryPink"), Color("PrimaryBlue")]),
                                     startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -31,7 +31,7 @@ struct SearchBar: View {
                         Image(systemName: "magnifyingglass")
                             .foregroundColor(Color("PrimaryPurple"))
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                            .padding(.leading, 8)
+                            .padding(.leading, 10)
                         
                         Spacer()
                         
@@ -41,7 +41,7 @@ struct SearchBar: View {
                             }, label: {
                                 Image(systemName: "multiply.circle.fill")
                                     .foregroundColor(Color("PrimaryPurple"))
-                                    .padding(.trailing, 8)
+                                    .padding(.trailing, 10)
                             })
                         }
                     }

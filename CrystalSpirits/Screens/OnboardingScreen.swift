@@ -33,14 +33,12 @@ struct OnboardingScreen: View {
             .indexViewStyle(.page(backgroundDisplayMode: .always))
             Spacer()
             
-            // if(self.currentStep == 2)
-            
             Button {
                 onboardingComplete = true
             } label: {
                 Text("Get Started")
                     .foregroundColor(.white)
-                    .frame(width: 300 , height: 50, alignment: .center)
+                    .frame(width: 340 , height: 35, alignment: .center)
                     .font(.system(size: 18, weight: .bold, design: .default))
                     .padding(7)
             }

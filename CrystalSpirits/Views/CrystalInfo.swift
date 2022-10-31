@@ -13,7 +13,7 @@ struct CrystalInfo: View {
     var info : String
     
     var body: some View {
-        HStack{
+        VStack(alignment: .leading){
             Text(title)
                 .font(.system(size: 22, weight: .semibold, design: .default))
             
