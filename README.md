@@ -17,7 +17,7 @@
 <p align="center">
 
   <a href="https://github.com/bee2805/CrystalSpirits">
-    <img src="/assets/logo.png" alt="Logo" width="140" height="140">
+    <img src="/assets/logo.png" alt="Logo" width="200">
   </a>
   
   <h3 align="center">Crystal Spirits</h3>
