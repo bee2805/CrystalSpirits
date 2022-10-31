@@ -218,3 +218,4 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 * [Onboarding Tutorial](https://www.youtube.com/watch?v=vzrWABJ6fhs)
 * [GitHub Icon](//https://www.flaticon.com/free-icon/github_733609?term=github&page=1&position=3&page=1&position=3&related_id=733609&origin=search)
 * [3D Illustrations](https://icons8.com/illustrations/style--3d-casual-life)
+* [The Encyclopedia of Crystals - Judy Hall](https://books.google.co.za/books/about/The_Encyclopedia_of_Crystals_New_Edition.html?id=f0ijDgAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en&redir_esc=y#v=onepage&q&f=false)

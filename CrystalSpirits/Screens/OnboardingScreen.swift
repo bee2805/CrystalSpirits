@@ -16,6 +16,7 @@ struct OnboardingScreen: View {
     var onboarding: [Onboarding] = OnboardingData
     @State private var currentLocation = 0
     
+
     var body: some View {
         VStack{
             

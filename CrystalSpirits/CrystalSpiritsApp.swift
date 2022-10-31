@@ -10,7 +10,6 @@ import SwiftUI
 @main struct CrystalSpiritsApp: App {
     
     // get app storage onboarding val
-    @AppStorage("onboardingComplete") var onboardingComplete = false
     @AppStorage("isLightMode") var isLightMode = false
     
     
@@ -18,13 +17,13 @@ import SwiftUI
         WindowGroup {
             
 //            OnboardingScreen()
-//            SplashScreen()
-            if(onboardingComplete){
-                CrystalListScreen()
-                    .preferredColorScheme(isLightMode ? .light : .dark)
-            } else {
-                OnboardingScreen()
-            }
+            SplashScreen()
+                .preferredColorScheme(isLightMode ? .light : .dark)
+//            if(onboardingComplete){
+//                CrystalListScreen()
+//            } else {
+//                OnboardingScreen()
+//            }
         }
     }
 }
