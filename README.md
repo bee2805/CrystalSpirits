@@ -20,7 +20,7 @@
     <img src="app/src/main/res/drawable/logo.png" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">OK Boomer</h3>
+  <h3 align="center">Crystal Spirits</h3>
 
   <p
     
