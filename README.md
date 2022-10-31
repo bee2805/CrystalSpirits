@@ -113,22 +113,19 @@ I implemented a splash screen that displays as soon as the application is opened
 The onboarding screens have brief information about the application that give the user an understanding of what it may be about. The onboarding screens only display when the user opens the app for the first time. I was able to do this utilizing App storage.
 
 ![image3](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Onboarding.jpg)
-### Crystals List/Home Screen
+### Crystals List/Home Screen & Detailed Crystal View
 
 The Home page has a list of different crystals as well as a search bar that allows to user to find the crystal they are looking for.
-
-![image4](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/question_screen.jpg)
-### Detailed Crystal View
-
+<br/>
 The result screen displays after a user have completed a category. The score from the specific Category played is displayed here.
 
-![image5](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/results.jpg)
+![image4](https://github.com/bee2805/CrystalSpirits/blob/main/assets/CrystalInfo.jpg)
 
 ### Settings Screen
 
 The settings screen displays information about the application as well as the version. The user can also toggle between light and dark mode, and visit the github repositry by clicking the button at the bottom of the screen.
 
-![image6](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/results.jpg)
+![image6](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Settings.jpg)
 
 
 <!-- CONCEPT PROCESS -->
