@@ -63,7 +63,7 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/cover_photo.jpg)
+![image1](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupOne.jpg)
 
 ### Project Description
 
