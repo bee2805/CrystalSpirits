@@ -117,6 +117,7 @@ The onboarding screens have brief information about the application that give th
 
 The Home page has a list of different crystals as well as a search bar that allows to user to find the crystal they are looking for.
 <br/>
+<br/>
 The result screen displays after a user have completed a category. The score from the specific Category played is displayed here.
 
 ![image4](https://github.com/bee2805/CrystalSpirits/blob/main/assets/CrystalInfo.jpg)
@@ -125,7 +126,7 @@ The result screen displays after a user have completed a category. The score fro
 
 The settings screen displays information about the application as well as the version. The user can also toggle between light and dark mode, and visit the github repositry by clicking the button at the bottom of the screen.
 
-![image6](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Settings.jpg)
+![image5](https://github.com/bee2805/CrystalSpirits/blob/main/assets/Settings.jpg)
 
 
 <!-- CONCEPT PROCESS -->
@@ -135,12 +136,12 @@ The settings screen displays information about the application as well as the ve
 
 ### Ideation
 
-![image7](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/concept_ideation.jpg)
+![image6](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/concept_ideation.jpg)
 <br>
 
 ### Wireframes
 
-![image8](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
+![image7](https://github.com/bee2805/CrystalSpirits/blob/main/app/src/main/res/drawable/wireframes.jpg)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -151,38 +152,34 @@ The settings screen displays information about the application as well as the ve
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* It was super exciting to learn Kotlin and build my very first android app!
-* Ater getting my muse, which was OK Boomer, the excitement grew each day. I had a lot of fun doing the research, especially for the lyric-based questions. 
-* I had a lot of fun doing the research, especially for the lyric-based questions. 
+* Learning Swift and building my very first iOS app!
+* SwiftUi. 
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Because of the way I set up my questions, I had challenges when trying to navigate to the next question activity in a specific genre.
-* I struggled to set the session storage for the scores from each category from the results activity.
+* Running XCode on my Macbook Air 2015
+* Navigationg from the Splash Screen to Onboarding Screens.
 
 
 #### Above And Beyond
 
-* I implemented different ways in which a question can be answered - Either a text input with appropriate validation or selecting between three answers.
-* 8 questions per category instead of 5
-* 5 categories instead of 3
+* Custom Search Bar
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* I'd like to implement the high scores from each category.
-* Visual communication when the incorrect or correct answer is chosen
-* A light and dark mode toggle in the settings menu
+* Improvements on the UI, especially the detailed crystal view
+* Filter by Categories
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
 ### Mockups
 
-![image10](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
+![image8](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupTwo.jpg)
 <br>
 
-![image11](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
+![image9](https://github.com/bee2805/CrystalSpirits/blob/main/assets/MockupThree.jpg)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -213,13 +210,10 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [OK Boomer Website](https://okboomer.game/)
-* [OK Boomer Instagram](https://www.instagram.com/okboomer.game/)
-* [OK Boomer Behance Project](https://www.behance.net/gallery/145988733/Ok-Boomer-Branding-and-Design-for-Trivia-Game)
-* [Boomer Questions and imagery Source 1](https://www.buzzfeed.com/briangalindo/quiz-that-is-easy-for-baby-boomers-only)
-* [Boomer Questions and imagery Source 2](https://www.buzzfeed.com/sarahaspler/boomer-trivia-quiz)
-* [Gen X Questions](https://www.buzzfeed.com/briangalindo/only-gen-xers-are-passing-this-quiz)
-* [Millennial Questions](https://www.buzzfeed.com/briangalindo/easy-2000s-trivia-quiz-for-millennials)
-* [Gen Z Questions](https://www.buzzfeed.com/farrahpenn/these-trivia-questions-will-separate-gen-z-cuspers-from)
-* [Mockups](https://www.behance.net/gallery/112977919/Google-Pixel-5-Mockup-Free-Download)
-* All the links to specific imagery is displayed in the code
+* [Mockups](https://www.freepik.com/user/collections/clay-mockups/3953510)
+* [SF Symbols](https://developer.apple.com/sf-symbols/)
+* [Sean Allen](https://www.youtube.com/c/SeanAllen)
+* [Custom Search Bar](https://www.youtube.com/watch?v=d8GVu4Y_biE)
+* [Onboarding Tutorial](https://www.youtube.com/watch?v=vzrWABJ6fhs)
+* [GitHub Icon](//https://www.flaticon.com/free-icon/github_733609?term=github&page=1&position=3&page=1&position=3&related_id=733609&origin=search)
+* [3D Illustrations](https://icons8.com/illustrations/style--3d-casual-life)

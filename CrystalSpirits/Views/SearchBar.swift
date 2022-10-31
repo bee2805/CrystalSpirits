@@ -3,7 +3,7 @@
 //  CrystalSpirits
 //
 //  Created by Bronwyn Potgieter on 2022/10/26.
-// https://www.youtube.com/watch?v=d8GVu4Y_biE
+//
 
 import SwiftUI
 

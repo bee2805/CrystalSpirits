@@ -76,7 +76,6 @@ struct SettingsScreen: View {
             Link(destination: URL(string: "https://github.com/bee2805/CrystalSpirits")!, label: {
         
                 HStack{
-                    //https://www.flaticon.com/free-icon/github_733609?term=github&page=1&position=3&page=1&position=3&related_id=733609&origin=search
                     Image("GitHub")
                         .resizable()
                         .frame(width: 25, height: 25)
