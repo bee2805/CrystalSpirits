@@ -12,4 +12,3 @@ struct Onboarding: Identifiable {
     let image : String
     let description : String
 }
-

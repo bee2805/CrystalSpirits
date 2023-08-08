@@ -12,11 +12,11 @@ import SwiftUI
     // get app storage onboarding val
     @AppStorage("isLightMode") var isLightMode = false
     
-    
     var body: some Scene {
         WindowGroup {
             
 //            OnboardingScreen()
+            
             SplashScreen()
                 .preferredColorScheme(isLightMode ? .light : .dark)
 //            if(onboardingComplete){
